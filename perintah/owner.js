@@ -6,7 +6,7 @@ exports.run = (bot, message, args, from, id) => {
             + 'VERSION:3.0\n' 
             + 'FN:IsmailTheArt\n' // full name
             + 'ORG:IsmailTheArt;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=6289630171792:+62 896 3017 1792\n' // WhatsApp ID + phone number
+            + 'TEL;type=CELL;type=VOICE;waid=6283805279906:+62 838 0527 9906\n' // WhatsApp ID + phone number
             + 'END:VCARD'
             bot.sendMessage(from, {displayname: "Zefian", vcard: vcard}, contact, { quoted: message })
             bot.sendMessage(from, "dia gapunya pacar ambil aja", text)
